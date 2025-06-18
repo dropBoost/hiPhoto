@@ -73,7 +73,7 @@ export default function Home() {
           <div className="flex justify-center items-center lg:col-span-2 lg:row-span-1 lg:col-start-10 lg:row-start-2 col-span-6 row-span-2 col-start-7 row-start-7 bg-red-600 bg-[url(https://www.sandrobarrasso.com/media/event-1.jpg)] bg-cover bg-center">
             <Link href="/video" className="block bg-stone-200/10 hover:bg-red-700 hover:text-stone-100 font-bold text-stone-700/80 ps-5 pe-5 p-3 w-full h-full text-center">
               <button className="hover:bg-stone-200/10 hover:text-stone-100 font-bold text-stone-100 ps-5 pe-5 p-3 w-full h-full text-shadow-lg/30">
-                VIDEOT
+                VIDEO
               </button>
             </Link>
           </div>
