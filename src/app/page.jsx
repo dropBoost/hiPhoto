@@ -1,7 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import MainNavbar from "./components/mainNavbar";
-import Carousel from "./components/slider"
 import SocialNavbar from "./components/socialNavabar";
 import FooterBar from "./components/footerBar";
 import Logo from "./components/logo";
