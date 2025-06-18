@@ -1,0 +1,12 @@
+> Dati Anagrafici:
+Nome
+Cognome
+> Indirizzo di Residenza:
+Via
+Numero
+CAP
+Citta
+Provincia
+> Recapiti:
+Recapito Telefonico
+Email
