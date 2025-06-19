@@ -1,9 +1,9 @@
-import {Gallery} from "@/app/components/gallery"
+import { GalleryThreeVers } from "@/app/components/gallery3ver"
 
 export default function PageFood () {
     return(
         <>
-        <Gallery apiUrl="/api/galleryFood"/>
+        <GalleryThreeVers apiUrl="/api/galleryFood"/>
         </>
     )
 }

@@ -1,10 +1,10 @@
 import {Gallery} from "@/app/components/gallery"
-import { GalleryTwoVers } from "@/app/components/gallery2ver"
+import { GalleryThreeVers } from "@/app/components/gallery3ver"
 
 export default function PageWedding () {
     return(
         <>
-        <GalleryTwoVers apiUrl="/api/galleryWedding"/>
+        <GalleryThreeVers apiUrl="/api/galleryWedding"/>
         </>
     )
 }
