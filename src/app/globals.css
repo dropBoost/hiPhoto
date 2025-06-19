@@ -44,3 +44,19 @@ a {
     color-scheme: dark;
   }
 }
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 10px;
+} /* Track */
+::-webkit-scrollbar-track {
+  background: #c6c6c6;
+  border-radius: 10px
+} /* Handle */
+::-webkit-scrollbar-thumb {
+  background: #961c1c;
+  border-radius: 10px;
+} /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222222;
+}

@@ -1,9 +1,9 @@
-import { GalleryTwoVers } from "@/app/components/gallery2ver"
+import { GalleryThreeVers } from "@/app/components/gallery3ver"
 
 export default function WeddTest () {
     return(
         <>
-        <GalleryTwoVers apiUrl="/api/galleryWedding"/>
+        <GalleryThreeVers apiUrl="/api/galleryWedding"/>
         </>
     )
 }
