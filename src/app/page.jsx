@@ -12,15 +12,15 @@ const images = [
 export default function Home() {
   return (
     <>
-    <div className="flex flex-col bg-white max-h-screen w-screen">
+    <div className="flex flex-col bg-white h-screen w-screen">
       <SocialNavbar/>
       <div id="header" className="flex justify-center flex-col items-center bg-white h-[20vh] w-full">
         <Logo altezza={"1rem"} link="/"/>
       </div>
       <div id="body" className=" bg-stone-100 flex flex-1 justify-center items-center lg:p-20 p-5">
-        <div className="grid grid-cols-12 lg:grid-rows-2 grid-rows-11 lg:h-[50vh] h-[70vh] w-screen gap-5">
+        <div className="grid grid-cols-12 lg:grid-rows-2 grid-rows-11 lg:h-[50vh] h-[60vh] w-screen gap-5">
           <div className="flex justify-center items-center lg:col-span-3 lg:row-span-2 lg:col-start-1 lg:row-start-1 col-span-6 row-span-5 col-start-1 row-start-1 bg-red-100 bg-[url(https://www.sandrobarrasso.com/media/wedding-1.jpg)] bg-cover bg-center">
-            <Link href="/wedding" className="block bg-stone-200/10 hover:bg-red-700/70 hover:text-stone-100 font-bold text-stone-700/80 ps-5 pe-5 p-3 w-full h-full text-center">
+            <Link href="/wedding" className="block hover:bg-red-700/70 hover:text-stone-100 font-bold text-stone-700/80 ps-5 pe-5 p-3 w-full h-full text-center">
               <button className="hover:bg-stone-200/10 hover:text-stone-100 font-bold text-stone-100 ps-5 pe-5 p-3 w-full h-full text-shadow-lg/30">
                 WEDDING
               </button>
