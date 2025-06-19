@@ -1,7 +1,6 @@
-import {Gallery} from "@/app/components/gallery"
 import { GalleryTwoVers } from "@/app/components/gallery2ver"
 
-export default function PageWedding () {
+export default function WeddTest () {
     return(
         <>
         <GalleryTwoVers apiUrl="/api/galleryWedding"/>

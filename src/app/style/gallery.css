@@ -45,15 +45,16 @@
 }
 
 .model{
-    width:100%;
+    width:100vw;
     height:100vh;
     position: fixed;
+    padding: 2rem;
     top: 0;
     left:0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222222;
+    background-color: #111111;
     transition: opacity .4s ease , visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;
