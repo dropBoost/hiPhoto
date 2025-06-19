@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { Outfit, Playfair } from "next/font/google";
 import "./globals.css";
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="it">
       <body className={`${outfit.variable} ${playfair.variable} font-outfit w-screen h-screen`}>
+        <Analytics/>
         {children}
       </body>
     </html>
