@@ -17,8 +17,8 @@ export default function Home() {
       <div id="header" className="flex justify-center flex-col items-center bg-white h-[15vh] w-full">
         <Logo altezza={"1rem"} link="/"/>
       </div>
-      <div id="body" className=" bg-stone-100 flex flex-1 justify-center items-center lg:p-20 p-5">
-        <div className="grid grid-cols-12 lg:grid-rows-2 grid-rows-11 lg:h-[50vh] h-[60vh] w-screen gap-5 justify-center">
+      <div id="body" className="lg:h-[50vh] min-h-[60vh] w-screen bg-stone-100 flex flex-1 justify-center items-center lg:p-20 p-5">
+        <div className="grid grid-cols-12 lg:grid-rows-2 grid-rows-11 w-full h-full  gap-5 justify-center">
           <div className="flex justify-center items-center lg:col-span-3 lg:row-span-2 lg:col-start-1 lg:row-start-1 col-span-6 row-span-5 col-start-1 row-start-1 bg-[url(https://isjsobqmkpwrtiaqgthz.supabase.co/storage/v1/object/public/mediafile/uploads/ac646530-4941-4a66-a760-d9b15a40a4e2.jpg)] bg-cover bg-center">
           <div className="w-full h-full inset-0 bg-stone-900/40">
             <Link href="/wedding" className="block hover:bg-red-700/40 hover:text-stone-100 font-bold text-stone-700/80 ps-5 pe-5 p-3 w-full h-full text-center">
